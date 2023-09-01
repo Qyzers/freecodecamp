@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Step 49</title>
+</head>
+<body>
+
+<!--If you select the Indoor radio button and submit the form, the form data for the button is based on its name and value attributes. Since your radio buttons do not have a value attribute, the form data will include indoor-outdoor=on, which is not useful when you have multiple buttons.-->
+
+<!--Add a value attribute to both radio buttons. For convenience, set the button's value attribute to the same value as its id attribute.-->
+
+<label><input id="indoor" type="radio" value="indoor" name="indoor-outdoor"> Indoor</label>
+<label><input id="outdoor" type="radio" value="outdoor" name="indoor-outdoor"> Outdoor</label>
+
+</body>
+</html>
